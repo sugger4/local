@@ -1,0 +1,7 @@
+name             'composer'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures composer'
+long_description 'Installs/Configures composer'
+version          '0.1.0'

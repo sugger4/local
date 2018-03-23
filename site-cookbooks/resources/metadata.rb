@@ -1,0 +1,7 @@
+name             'resources'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures resources'
+long_description 'Installs/Configures resources'
+version          '0.1.0'

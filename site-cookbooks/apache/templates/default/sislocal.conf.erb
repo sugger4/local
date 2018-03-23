@@ -1,0 +1,11 @@
+<VirtualHost *:80>
+    ServerName sis.local.com
+    DocumentRoot /vagrant/resources/cakephp/app/webroot
+    ErrorLog   "logs/sislocal-error_log"
+    CustomLog  "logs/sislocal-access_log" common 
+    Options +ExecCGI
+    AddHandler cgi-script .rb
+    <Directory /vagrant/resources/cakephp/app/webroot>
+	Require all granted
+   </Directory>
+</VirtualHost>
